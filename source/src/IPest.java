@@ -1,0 +1,3 @@
+interface IPest {
+     void BeAnnoying();
+}

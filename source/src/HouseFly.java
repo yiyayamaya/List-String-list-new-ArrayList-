@@ -1,6 +1,21 @@
-public class HouseFly {
+class HouseFly   implements IPest {
 
-    public static void main(String[] args) {
-        System.out.println();
+
+
+    void FlyAroundYourHead(){
+
+        System.out.println("wong wong wong !");
+
+    }
+    void LandOnThings(){
+        System.out.println("pu pu pu!");
+
+    }
+
+
+    @Override
+    public void BeAnnoying() {
+        FlyAroundYourHead();
+        LandOnThings();
     }
 }
